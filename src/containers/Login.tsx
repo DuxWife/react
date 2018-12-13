@@ -96,11 +96,11 @@ class Login extends React.Component<Props, State> {
           <form className={this.props.classes.form} onSubmit={this.handleSubmit}>
             <FormControl margin="normal" required fullWidth>
               <InputLabel htmlFor="email">Email Address</InputLabel>
-              <Input id="email" name="email" autoComplete="email" autoFocus value="test@test.test"/>
+              <Input id="email" name="email" autoComplete="email" autoFocus />
             </FormControl>
             <FormControl margin="normal" required fullWidth>
               <InputLabel htmlFor="password">Password</InputLabel>
-              <Input name="password" type="password" id="password" autoComplete="current-password" value="123456"/>
+              <Input name="password" type="password" id="password" autoComplete="current-password" />
             </FormControl>
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
